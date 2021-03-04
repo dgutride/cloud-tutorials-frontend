@@ -25,8 +25,9 @@ const SamplePage = () => {
   return (
     <React.Fragment>
       <PageHeader>
-        <PageHeaderTitle title="Sample Insights App" />
-        <p>This is page header text </p>
+        <PageHeaderTitle title="Welcome to the Solution Explorer" />
+        <p>Learn how to easily implement integrations with Solution Pattern examples.
+        </p>
       </PageHeader>
       <Main>
         <LandingPage />

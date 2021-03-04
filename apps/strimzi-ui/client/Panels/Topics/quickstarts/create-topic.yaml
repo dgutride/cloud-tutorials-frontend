@@ -12,9 +12,10 @@ spec:
     - title: Creating a topic
       description: |-
         ### To create a topic:
-        1. Step 1
-        1. Step 2
-        1. Step 3
+        1. Click the Create Topic button
+        1. Enter a topic name in the box
+        1. Click Next until you reach the end of the wizard accepting all of the default options.
+        4. Click Finish to create the topic
 
         The dialog will close and you will see a new entry in the topic list.
       review:

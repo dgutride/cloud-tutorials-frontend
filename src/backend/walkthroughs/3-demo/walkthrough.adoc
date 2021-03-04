@@ -3,7 +3,7 @@
 [id='demo']
 = {walkthrough}
 
-This solution pattern will walk you through the creation of a kafka stream, and will also have you create a topic and connect it to the stream.
+This solution pattern will walk you through the creation of a Kafka Stream, and will also have you create a topic and connect it to the stream.
 
 This Solution Pattern consists of the following components:
 
@@ -14,7 +14,8 @@ This Solution Pattern consists of the following components:
 [type=walkthroughResource,serviceName=rhosak]
 .Red Hat OpenShift Streams for Apache Kafka (RHOSAK)
 ****
-* link:https://cloud.redhat.com[Console, window="_blank"]
+* link:https://cloud.redhat.com[Control plane, window="_blank"]
+* link:https://cloud.redhat.com[Data plane, window="_blank"]
 ****
 
 [type=walkthroughResource,serviceName=rhosak-cli]
@@ -34,34 +35,23 @@ This Solution Pattern consists of the following components:
 
 ==  Creating a Kafka instance
 
-For this task, you will create a Kafka instance.
+For this task, you will create a Kafka instance by using the built-in quick start within the Kafka user interface.
 
-. Choose the following as the instance name:
-+
-[subs="attributes+", role="clipboard"]
-----
-kafka-test
-----
-. Copy the instance name and launch the app in the next step. Follow the quick start steps within the app to create a kafka instance.
 . Open the [.app-launch-control]#Kafka control plane#.
+. Follow the quick start steps within the app to create a kafka instance.
+. Once the quick start is complete, you will return to this solution pattern to create a topic.
 
 [type=verification]
 verify-through-app
 
-
 [time=5]
 == Creating a topic
 
-For this task, you will create a kafka topic.
+For this task, you will create a Kafka topic.
 
-. Choose the following as the topic name:
-+
-[subs="attributes+", role="clipboard"]
-----
-topic-test
-----
-. Copy the topic name and launch the app in the next step. Follow the quick start steps within the app to create a kafka topic.
 . Open the [.app-launch-data]#Kafka data plane#.
+. Follow the quick start steps within the app to create a Kafka topic.
+. Once the quick start is complete, you will return to this solution pattern to begin using that topic.
 
 [type=verification]
 verify-through-app

@@ -204,11 +204,20 @@ const OpenshiftStreams = ({ onConnectToInstance }: OpenShiftStreamsProps) => {
   };
   const onCreate = () => {
     setKafkaDataLoaded(false);
+    // const accessToken = 'token';
+    // const apisService = new DefaultApi({
+    //       accessToken,
+    //       basePath,
+    //     });
+    // await apisService.createKafka(true, {
+    //   name: "test-instance",
+    // }).then( () => {
     /*
         increase the expected total by 1
         as create operation will lead to adding a kafka in the list of response
       */
     setExpectedTotal(kafkaInstancesList.total + 1);
+    //});
   };
   const onDelete = () => {
     setKafkaDataLoaded(false);
